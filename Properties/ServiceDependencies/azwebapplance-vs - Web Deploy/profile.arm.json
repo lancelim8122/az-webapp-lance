@@ -21,7 +21,7 @@
     },
     "resourceName": {
       "type": "string",
-      "defaultValue": "azure-app-lance-vs20240326155525",
+      "defaultValue": "azwebapplance-vs",
       "metadata": {
         "description": "Name of the main resource to be created by this template."
       }
