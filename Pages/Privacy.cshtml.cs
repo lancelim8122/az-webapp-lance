@@ -14,6 +14,7 @@ namespace az_webapp_lance.Pages
 
         public void OnGet()
         {
+            throw new Exception("Testing");
         }
     }
 }

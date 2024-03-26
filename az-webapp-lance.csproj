@@ -5,6 +5,12 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>az_webapp_lance</RootNamespace>
+    <ApplicationInsightsResourceId>/subscriptions/609823b6-416a-4cfd-b41c-eb4c5cafd425/resourceGroups/cloud-shell-storage-southeastasia/providers/microsoft.insights/components/azwebapplance-vs</ApplicationInsightsResourceId>
+    <UserSecretsId>ad49a0db-334d-4735-9a88-a60d80df8ec5</UserSecretsId>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.15.0" />
+  </ItemGroup>
 
 </Project>
